@@ -1,0 +1,192 @@
+export const headerNavItems = [
+    {
+        id: 0,
+        name: "Home",
+        icon: "HiHome",
+        link: "/"
+    },
+    {
+        id: 1,
+        name: "Departamentos",
+        icon: "",
+        link: "/departamentos"
+    },
+    {
+        id: 2,
+        name: "Doutores",
+        icon: "FaUserDoctor",
+        link: "/doutores"
+    },
+    {
+        id: 3,
+        name: "Planos",
+        icon: "FaHammer",
+        link: "/planos"
+    },
+    {
+        id: 4,
+        name: "Blog",
+        icon: "IoChatbubbles",
+        link: "/blog"
+    },
+    {
+        id: 5,
+        name: "Contato",
+        icon: "RiPhoneFill",
+        link: "/contato"
+    },
+]
+
+export const doctors = [
+    {
+        id: 1,
+        image: "/images/our-team/doctor-01.png",
+        name: "Dráuzio Boccele",
+        title: "Cardiologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam o coração."
+    },
+    {
+        id: 2,
+        image: "/images/our-team/doctor-02.png",
+        name: "Christian Figueiredo",
+        title: "Neurologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam o cerébro."
+    },
+    {
+        id: 3,
+        image: "/images/our-team/doctor-03.png",
+        name: "Bruno Schampari",
+        title: "Pediatra",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam crianças."
+    },
+    {
+        id: 4,
+        image: "/images/our-team/doctor-04.png",
+        name: "Daniel Santos",
+        title: "Psiquiatra",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar doenças que o estado mental."
+    },
+    {
+        id: 5,
+        image: "/images/our-team/doctor-05.png",
+        name: "Gabriel Lanuze",
+        title: "Ginecologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam mulheres."
+    },
+    {
+        id: 6,
+        image: "/images/our-team/doctor-06.png",
+        name: "Ernesto Cupucce",
+        title: "Geriatra",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam o coração."
+    },
+    {
+        id: 7,
+        image: "/images/our-team/doctor-07.png",
+        name: "Leonardo Ramiolli",
+        title: "Endocrinologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças hormonais."
+    },
+    {
+        id: 8,
+        image: "/images/our-team/doctor-08.png",
+        name: "Fernando Carvalho",
+        title: "Urologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças do trato urinário."
+    },
+    {
+        id: 9,
+        image: "/images/our-team/doctor-09.png",
+        name: "Rômulo Dantas",
+        title: "Dermatologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        successSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam a pele."
+    },
+    {
+        id: 10,
+        image: "/images/our-team/doctor-10.png",
+        name: "Young Lee",
+        title: "Nefrologista",
+        age: "55",
+        history: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        country: "Brasil",
+        workDays: ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira"],
+        workHours: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+        percentageServiBrasilce: "88%",
+        percentageService: "88%",
+        percentageDiagnosis: "90%",
+        percentageSurgery: "98%",
+        description: "Doutor especialista em diagnosticar e tratar doenças que afetam os rins."
+    },
+]
