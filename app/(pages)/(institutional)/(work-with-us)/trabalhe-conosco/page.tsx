@@ -5,7 +5,7 @@ import { Positions } from "@/app/(pages)/(institutional)/(work-with-us)/trabalhe
 import { WhatWeOffer } from "@/app/(pages)/(institutional)/(work-with-us)/trabalhe-conosco/_components/what-we-offer"
 import { Footer } from "@/app/_components/common/footer"
 
-export const WorkWithUsPage = () => {
+const WorkWithUsPage = () => {
     return (
         <div>
             <HeaderTitle
