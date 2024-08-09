@@ -4,7 +4,7 @@ import { Footer } from "@/app/_components/common/footer"
 
 const DoctorsPage = () => {
     return (
-        <main className="w-full bg-gray-50">
+        <main className="w-full">
             <HeaderTitle
                 title="Doutores"
                 subtitle="Doutores que atuam diarimente em nossos centros médicos."

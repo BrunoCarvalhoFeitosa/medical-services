@@ -20,13 +20,13 @@ export const DepartmentsSection = () => {
                         obviamente com prescrição médica.
                     </p>
                 </div>
-                <div className="xl:absolute xl:-bottom-28 xl:left-2/4 xl:-translate-x-2/4 mt-7 xl:mt-0 mx-auto w-full xl:w-[94%] flex flex-col xl:flex-row items-center gap-5">
-                    <div className="flex-1 py-6 px-10 xl:px-7 w-full bg-gray-100">
+                <div className="xl:absolute xl:-bottom-28 xl:left-2/4 xl:-translate-x-2/4 mt-7 xl:mt-0 mx-auto w-full xl:w-[94%] flex flex-col lg:flex-row items-center gap-5">
+                    <div className="flex-1 py-6 px-10 lg:px-2 xl:px-7 w-full bg-gray-100">
                         <div className="mb-6 flex justify-center">
                             <FaHospital className="w-10 h-10 text-cyan-500" />
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-lg font-semibold text-center text-zinc-900">
+                            <h3 className="text-base lg:text-sm xl:text-lg font-semibold text-center text-zinc-900">
                                 Serviços gerais
                             </h3>
                             <p className="mt-2 text-sm text-center text-gray-400">
@@ -34,12 +34,12 @@ export const DepartmentsSection = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 py-6 px-10 xl:px-7 w-full bg-gray-100">
+                    <div className="flex-1 py-6 px-10 lg:px-2 xl:px-7 w-full bg-gray-100">
                         <div className="mb-6 flex justify-center">
                             <FaPersonPregnant className="w-10 h-10 text-cyan-500" />
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-lg font-semibold text-center text-zinc-900">
+                            <h3 className="text-base lg:text-sm xl:text-lg font-semibold text-center text-zinc-900">
                                 Suporte à gestantes
                             </h3>
                             <p className="mt-2 text-sm text-center text-gray-400">
@@ -47,12 +47,12 @@ export const DepartmentsSection = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 py-6 px-10 xl:px-7 w-full bg-gray-100">
+                    <div className="flex-1 py-6 px-10 lg:px-2 xl:px-7 w-full bg-gray-100">
                         <div className="mb-6 flex justify-center">
                             <GiBarefoot className="w-10 h-10 text-cyan-500" />
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-lg font-semibold text-center text-zinc-900">
+                            <h3 className="text-base lg:text-sm xl:text-lg font-semibold text-center text-zinc-900">
                                 Suporte fisioterapeutico
                             </h3>
                             <p className="mt-2 text-sm text-center text-gray-400">
@@ -60,12 +60,12 @@ export const DepartmentsSection = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 py-6 px-10 xl:px-7 w-full bg-gray-100">
+                    <div className="flex-1 py-6 px-10 lg:px-2 xl:px-7 w-full bg-gray-100">
                         <div className="mb-6 flex justify-center">
                             <MdLocalPharmacy className="w-10 h-10 text-cyan-500" />
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <h3 className="text-lg font-semibold text-center text-zinc-900">
+                            <h3 className="text-base lg:text-sm xl:text-lg font-semibold text-center text-zinc-900">
                                 Suporte farmaceutico
                             </h3>
                             <p className="mt-2 text-sm text-center text-gray-400">

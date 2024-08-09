@@ -1,5 +1,5 @@
 import { HeaderTitle } from "@/app/_components/common/header-title"
-import { Policy } from "./_components/policy"
+import { Policy } from "@/app/(pages)/(institutional)/(policies)/politica-de-privacidade/_components/policy"
 import { Footer } from "@/app/_components/common/footer"
 
 const PrivacyPolicyPage = () => {

@@ -1,5 +1,5 @@
 import { HeaderTitle } from "@/app/_components/common/header-title"
-import { Content } from "./_components/content"
+import { Content } from "@/app/(pages)/(institutional)/(saq)/sac/_components/content"
 import { Footer } from "@/app/_components/common/footer"
 
 const SaqPage = () => {

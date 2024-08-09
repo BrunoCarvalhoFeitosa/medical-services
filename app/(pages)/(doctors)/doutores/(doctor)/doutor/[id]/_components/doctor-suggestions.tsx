@@ -19,7 +19,10 @@ export const DoctorSuggestions = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
                 {doctors.slice(0, 8).map((doctor) => (
-                    <div className="group flex flex-col items-start gap-2">
+                    <div
+                        key={doctor.id}
+                        className="group flex flex-col items-start gap-2"
+                    >
                         <div className="relative flex-1 w-full h-64 bg-gray-50 overflow-hidden">
                             <div className="relative">
                                 <Link

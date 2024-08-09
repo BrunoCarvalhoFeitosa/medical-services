@@ -1,6 +1,6 @@
 import { HeaderTitle } from "@/app/_components/common/header-title"
+import { Policy } from "@/app/(pages)/(institutional)/(policies)/politica-de-cookies/_components/policy"
 import { Footer } from "@/app/_components/common/footer"
-import { Policy } from "./_components/policy"
 
 const CookiesPolicyPage = () => {
     return (

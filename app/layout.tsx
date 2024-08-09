@@ -3,10 +3,11 @@ import { Poppins } from "next/font/google"
 import { HeaderDesktop } from "@/app/_components/common/header-desktop"
 import { HeaderMobile } from "@/app/_components/common/header-mobile"
 import { ScrollTopButton } from "./_components/common/scroll-top-button"
-import "./globals.css"
+import "react-toastify/dist/ReactToastify.css"
 import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
+import "./globals.css"
 
 const font = Poppins({
     subsets: ["latin"],

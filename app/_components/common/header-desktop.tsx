@@ -4,6 +4,7 @@ import { headerNavItems } from "@/constants"
 import { LuSearch } from "react-icons/lu"
 import { RiMapPinFill, RiPhoneFill } from "react-icons/ri"
 import { HealthcareLogoSvg } from "@/public/svg/healthcare-logo-svg"
+import { MdEmail } from "react-icons/md"
 
 export const HeaderDesktop = () => {
     return (
@@ -43,6 +44,14 @@ export const HeaderDesktop = () => {
                             </div>
                             <div className="text-sm text-gray-400">
                                 +55 (11) 4099-9940
+                            </div>
+                        </div>
+                        <div className="lg:hidden 2xl:flex items-center gap-1">
+                            <div>
+                                <MdEmail className="w-6 h-6 text-cyan-500" />
+                            </div>
+                            <div className="text-sm text-gray-400">
+                                contato@healthcare.com.br
                             </div>
                         </div>
                         <div className="relative w-60 h-12">
@@ -90,14 +99,15 @@ export const HeaderDesktop = () => {
                     </div>
                     <div>
                         <form className="flex items-center gap-2">
-                            <button type="submit">
-                                <LuSearch className="w-6 h-6 text-cyan-500" />
-                            </button>
                             <input
+                                id="search"
                                 type="form"
-                                className="w-fit text-sm text-gray-400 border-none outline-none"
-                                placeholder="Doutor Dráuzio Boccele..."
+                                className="w-fit xl:min-w-[264px] text-sm text-gray-400 border-none outline-none"
+                                placeholder="Pesquise por Doutor Dráuzio Boccele..."
                             />
+                            <label htmlFor="search" className="cursor-pointer">
+                                <LuSearch className="w-6 h-6 text-cyan-500" />
+                            </label>
                         </form>
                     </div>
                 </div>

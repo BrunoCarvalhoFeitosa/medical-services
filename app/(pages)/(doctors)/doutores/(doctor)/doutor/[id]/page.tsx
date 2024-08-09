@@ -1,10 +1,9 @@
 import { doctors } from "@/constants"
 import { HeaderTitle } from "@/app/(pages)/(doctors)/doutores/(doctor)/doutor/[id]/_components/header-title"
-import { DoctorResume } from "./_components/doctor-resume"
+import { DoctorResume } from "@/app/(pages)/(doctors)/doutores/(doctor)/doutor/[id]/_components/doctor-resume"
+import { DoctorLocation } from "@/app/(pages)/(doctors)/doutores/(doctor)/doutor/[id]/_components/doctor-location"
+import { DoctorSuggestions } from "@/app/(pages)/(doctors)/doutores/(doctor)/doutor/[id]/_components/doctor-suggestions"
 import { Footer } from "@/app/_components/common/footer"
-import { DoctorAppointment } from "./_components/doctor-appointment"
-import { DoctorLocation } from "./_components/doctor-location"
-import { DoctorSuggestions } from "./_components/doctor-suggestions"
 
 interface DoctorPageProps {
     params: {
@@ -43,7 +42,6 @@ const DoctorPage = ({ params }: DoctorPageProps) => {
                 age={doctor.age}
                 history={doctor.history}
             />
-            <DoctorAppointment />
             <DoctorSuggestions />
             <DoctorLocation />
             <Footer />

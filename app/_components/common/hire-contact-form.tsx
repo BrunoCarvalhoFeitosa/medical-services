@@ -1,12 +1,14 @@
 "use client"
 import { useRef, useState } from "react"
+import emailjs from "@emailjs/browser"
 import * as yup from "yup"
 import { yupResolver } from "@hookform/resolvers/yup"
+import { ToastContainer, toast } from "react-toastify"
 import { useForm } from "react-hook-form"
 import { getAddress } from "@/utils/get-address"
 import { cepFormatMask, phoneFormatMask } from "@/utils/formatters"
 import { MdEmail, MdHomeWork } from "react-icons/md"
-import { RiPhoneFill, RiUserAddFill } from "react-icons/ri"
+import { RiLoader4Line, RiPhoneFill, RiUserAddFill } from "react-icons/ri"
 
 interface HireContactFormProps {
     title?: string
@@ -71,6 +73,9 @@ export const HireContactForm = ({ title, subtitle }: HireContactFormProps) => {
     const [isLoading, setIsLoading] = useState<boolean>(false)
     const [charCount, setCharCount] = useState<number>(0)
     const formRef = useRef<HTMLFormElement>(null)
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!
+    const apiKey = process.env.NEXT_PUBLIC_EMAILJS_API_KEY!
 
     const {
         register,
@@ -111,12 +116,41 @@ export const HireContactForm = ({ title, subtitle }: HireContactFormProps) => {
     }
 
     const onSubmit = async () => {
+        setIsLoading(true)
+
         try {
             if (formRef.current) {
+                await emailjs.sendForm(serviceId, templateId, formRef.current, apiKey)
 
+                toast.success("Mensagem enviada com sucesso, entraremos em contato.", {
+                    position: "bottom-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                })
+
+                reset()
             }
         } catch (error) {
+            console.error("Error while send form", error)
+            toast.error("Ocorreu um erro ao enviar sua mensagem, tente novamente.", {
+                position: "bottom-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            })
 
+            reset()
+        } finally {
+            setIsLoading(false)
         }
     }
 
@@ -316,11 +350,19 @@ export const HireContactForm = ({ title, subtitle }: HireContactFormProps) => {
                     </div>
                 </div>
                 <div className="w-full flex justify-end">
-                    <button className="w-full lg:w-2/4 h-14 bg-cyan-500 text-base md:text-lg font-semibold text-white transition-opacity duration-300 hover:opacity-75">
-                        Enviar minha mensagem agora
+                    <button className="px-5 w-full lg:w-2/4 h-14 bg-cyan-500 text-base md:text-lg font-semibold text-white transition-opacity duration-300 hover:opacity-75">
+                        {isLoading ? (
+                            <div className="flex justify-center items-center gap-2">
+                                <RiLoader4Line className="w-8 h-8 text-white animate-spin" />
+                                <span className="">Enviando sua mensagem agora...</span>
+                            </div>
+                        ) : (
+                            <span>Enviar minha mensagem agora</span>
+                        )}
                     </button>
                 </div>
             </form>
+            <ToastContainer />
         </div>
     )
 }
