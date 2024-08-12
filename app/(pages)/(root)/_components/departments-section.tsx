@@ -6,7 +6,7 @@ import { MdLocalPharmacy } from "react-icons/md"
 
 export const DepartmentsSection = () => {
     return (
-        <section id="departamentos" className="relative px-5 md:px-10 xl:px-0 mx-auto w-full xl:w-2/3">
+        <section id="departamentos" className="relative mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="p-8 w-full lg:min-h-64 bg-cyan-500">
                 <div className="mx-auto lg:w-[90%]">
                     <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold text-white">

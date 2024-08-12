@@ -5,7 +5,7 @@ import { DoctorsListItem } from "@/app/(pages)/(doctors)/doutores/_components/do
 
 export const DoctorsList  = () => {
     return (
-        <div className="mt-16 mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="mt-16 mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-10">
             {doctors.map((doctor) => (
                 <Link key={doctor.id} href={`/doutores/doutor/${doctor.id}`}>
                     <DoctorsListItem

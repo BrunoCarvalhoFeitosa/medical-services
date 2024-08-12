@@ -7,7 +7,7 @@ import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti"
 
 export const Content = () => {
     return (
-        <div className="sticky my-16 mx-auto px-5 md:10 xl:px-0 w-full xl:w-2/3">
+        <div className="sticky my-16 mx-auto px-5 md:10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="flex items-start justify-between gap-5">
                 <div className="w-[85%]">
                     <div className="w-full">

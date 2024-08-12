@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const Policy = () => {
     return (
-        <section className="mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section className="mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="w-full">
                 <div className="mb-8">
                     <p className="mb-4 text-sm text-zinc-900">

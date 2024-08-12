@@ -2,7 +2,7 @@
 
 export const WhatWeOffer = () => {
     return (
-        <section className="pt-16 mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section className="pt-16 mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="mb-4 w-full">
                 <h2 className="text-2xl font-semibold text-cyan-500">
                     O que oferecemos

@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa6"
 export const Plans = () => {
     return (
         <section className="w-full">
-            <div className="mx-auto px-5 xl:px-0 w-full xl:w-2/3">
+            <div className="mx-auto px-5 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
                 <Tabs defaultValue="individual" className="w-full flex flex-col xl:flex-row gap-10 text-zinc-900">
                     <div className="flex-1 order-2 xl:order-1">
                         <TabsContent value="individual">

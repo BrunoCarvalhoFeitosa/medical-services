@@ -8,8 +8,8 @@ import { FaXTwitter } from "react-icons/fa6"
 
 export const Footer = () => {
     return (
-        <footer className="mt-16 lg:mt-32 py-10 px-5 md:px-10 xl:px-0 w-full bg-gray-100">
-            <div className="mx-auto flex flex-col xl:flex-row justify-between gap-20 w-full xl:w-2/3">
+        <footer className="mt-16 lg:mt-32 py-10 px-5 md:px-10 xl:px-6 2xl:px-0 w-full bg-gray-100 overflow-hidden">
+            <div className="mx-auto flex flex-col xl:flex-row justify-between gap-20 w-full 2xl:w-2/3">
                 <div className="flex-1">
                     <div className="box-border">
                         <div className="xl:-translate-x-3 box-border">
@@ -174,7 +174,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="mx-auto mt-10 pt-5 flex flex-col xl:flex-row justify-between gap-3 w-full xl:w-2/3 xl:border-t xl:border-gray-200">
+            <div className="mx-auto xl:mx-0 2xl:mx-auto mt-10 pt-5 flex flex-col xl:flex-row justify-between gap-3 w-full xl:w-[92%] 2xl:w-2/3 xl:border-t xl:border-gray-200">
                 <div>
                     <p className="text-sm text-gray-400">
                         © Healthcare Centro Médico.

@@ -10,7 +10,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi"
 
 export const OurTeamSection = () => {
     return (
-        <div id="doutores" className="relative mt-16 xl:mt-52 mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <div id="doutores" className="relative mt-16 xl:mt-52 mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="mb-8 w-full">
                 <h4 className="text-2xl md:text-3xl xl:text-5xl font-semibold text-cyan-500">
                     Doutores

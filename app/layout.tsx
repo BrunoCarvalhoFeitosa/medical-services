@@ -32,7 +32,7 @@ export default function RootLayout({ children }: Readonly<{
 }>) {
   return (
     <html lang="pt-BR">
-        <body className={font.className}>
+        <body className={`${font.className}`}>
             <HeaderDesktop />
             <HeaderMobile />
             {children}

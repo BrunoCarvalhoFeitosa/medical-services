@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const Title = () => {
     return (
-        <div className="my-16 mx-auto px-5 md:10 xl:px-0 w-full xl:w-2/3">
+        <div className="my-16 mx-auto px-5 md:10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="w-full">
                 <p className="text-sm text-gray-400">
                     Publicado em 07 de agosto de 2024.

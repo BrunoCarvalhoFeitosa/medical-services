@@ -117,7 +117,7 @@ export const HireSection = () => {
     }
 
     return (
-        <section id="contato" className="mx-auto my-16 px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section id="contato" className="mx-auto my-16 px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <HireContactForm
                 title="Entre em contato"
                 subtitle="Quer contratar um plano médico? Entre em contato conosco agora mesmo."

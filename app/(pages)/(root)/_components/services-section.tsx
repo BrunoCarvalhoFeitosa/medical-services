@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app
 
 export const ServicesSection = () => {
     return (
-        <section id="servicos" className="my-20 mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section id="servicos" className="my-20 mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="mb-8 w-full">
                 <h4 className="text-2xl md:text-3xl xl:text-5xl font-semibold text-cyan-500">
                     Serviços

@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const BlogSection = () => {
     return (
-        <section id="blog" className="mx-auto mt-16 lg:mt-32 px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section id="blog" className="mx-auto mt-16 lg:mt-32 px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="mb-8 w-full">
                 <h4 className="text-2xl md:text-3xl xl:text-5xl font-semibold text-cyan-500">
                     Blog

@@ -11,7 +11,7 @@ interface HeaderTitleProps {
 export const HeaderTitle = ({ picture, name, title, days }: HeaderTitleProps) => {
     return (
         <section className="w-full bg-gray-50">
-            <div className="mb-6 mx-auto py-0 lg:py-16 md:px-10 xl:px-0 w-full xl:w-2/3">
+            <div className="mb-6 mx-auto py-0 lg:py-16 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
                 <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4">
                     <div className="w-full lg:w-64 lg:h-52 bg-gray-100 overflow-hidden">
                         <Image

@@ -1,4 +1,4 @@
-import { HeaderTitle } from "@/app/(pages)/(doctors)/_components/header-title"
+import { HeaderTitle } from "@/app/_components/common/header-title"
 import { DoctorsList } from "@/app/(pages)/(doctors)/doutores/_components/doctors-list"
 import { Footer } from "@/app/_components/common/footer"
 
@@ -7,7 +7,7 @@ const DoctorsPage = () => {
         <main className="w-full">
             <HeaderTitle
                 title="Doutores"
-                subtitle="Doutores que atuam diarimente em nossos centros médicos."
+                description="Doutores que atuam diarimente em nossos centros médicos."
             />
             <DoctorsList />
             <Footer />

@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const Content = () => {
     return (
-        <section className="mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section className="mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <h2 className="text-2xl font-semibold text-cyan-500">
                 Healthcare Centro Médico
             </h2>

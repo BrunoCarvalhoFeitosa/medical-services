@@ -4,7 +4,7 @@ import { Footer } from "@/app/_components/common/footer"
 const ContactPage = () => {
     return (
         <div className="w-full bg-gray-50">
-            <div className="py-16 mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3 flex flex-col xl:flex-row gap-8">
+            <div className="py-16 mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3 flex flex-col xl:flex-row gap-8">
                 <div className="w-full xl:w-[60%]">
                     <HireContactForm
                         title="Entre em contato"

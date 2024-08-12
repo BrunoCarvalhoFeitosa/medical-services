@@ -119,7 +119,7 @@ export const departments = [
 
 export const Departments = () => {
     return (
-        <section className="mx-auto py-10 px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+        <section className="mx-auto py-10 px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {departments.map((department) => (
                     <div

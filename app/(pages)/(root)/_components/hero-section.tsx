@@ -389,7 +389,7 @@ export const HeroSection = () => {
                     />
                 )}
             </div>
-            <div className="mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3 flex flex-col lg:flex-row items-center gap-10">
+            <div className="mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3 flex flex-col lg:flex-row items-center gap-10">
                 <div className="relatice flex-1 z-10">
                     <h1 className="text-xl md:text-4xl lg:text-6xl xl:text-7xl font-semibold text-center lg:text-left text-zinc-900">
                         Nós cuidamos da sua saúde.

@@ -5,7 +5,7 @@ const NotFoundPage = () => {
     return (
         <div>
             <div className="w-full min-h-[50dvh] flex flex-col justify-center items-center">
-                <div className="mx-auto px-5 md:px-10 xl:px-0 w-full xl:w-2/3">
+                <div className="mx-auto px-5 md:px-10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
                     <div className="flex flex-col">
                         <h1 className="text-3xl font-semibold text-center">
                             Página não encontrada

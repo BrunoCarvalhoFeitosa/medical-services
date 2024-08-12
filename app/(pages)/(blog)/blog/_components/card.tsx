@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export const Cards = () => {
     return (
-        <section className="my-16 mx-auto px-5 md:10 xl:px-0 w-full xl:w-2/3">
+        <section className="my-16 mx-auto px-5 md:10 xl:px-6 2xl:px-0 w-full 2xl:w-2/3">
             <div className="flex flex-col lg:flex-row items-center gap-14 lg:gap-3">
                 <div className="w-full md:w-auto xl:w-[40%]">
                     <div className="w-full flex-1">
