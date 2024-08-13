@@ -88,11 +88,6 @@ export const Footer = () => {
                                     </Link>
                                 </li>
                                 <li className="text-sm text-gray-400 hover:text-cyan-500">
-                                    <Link href="/servicos">
-                                        Serviços
-                                    </Link>
-                                </li>
-                                <li className="text-sm text-gray-400 hover:text-cyan-500">
                                     <Link href="/blog">
                                         Blog
                                     </Link>
@@ -100,6 +95,11 @@ export const Footer = () => {
                                 <li className="text-sm text-gray-400 hover:text-cyan-500">
                                     <Link href="/contato">
                                         Contato
+                                    </Link>
+                                </li>
+                                <li className="text-sm text-gray-400 hover:text-cyan-500">
+                                    <Link href="/cadastro">
+                                        Cadastro
                                     </Link>
                                 </li>
                             </ul>
