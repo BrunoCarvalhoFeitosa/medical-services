@@ -24,7 +24,7 @@ export const HeaderTitle = ({ picture, name, title, days }: HeaderTitleProps) =>
                     </div>
                     <div className="flex-1 flex flex-col pb-5 px-5 lg:pb-0 lg:px-0">
                         <div className="mb-8 lg:mb-0">
-                            <h1 className="text-2xl md:text-3xl xl:text-5xl font-semibold leading-none text-cyan-500">
+                            <h1 className="text-xl md:text-3xl xl:text-5xl font-semibold leading-none text-cyan-500">
                                 Doutor {name}
                             </h1>
                             <p className="text-base lg:text-sm leading-none text-zinc-900">
