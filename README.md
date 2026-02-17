@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/BrunoCarvalhoFeitosa/ifood">
+  <a href="https://github.com/BrunoCarvalhoFeitosa/medical-services">
     <img src="\public\favicon\favicon.svg" alt="Logo" width="120" weight="120" />
   </a>
 
@@ -27,7 +27,7 @@
         <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#license">Licenças</a></li>
+    <li><a href="#licença">Licença</a></li>
     <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
@@ -103,7 +103,7 @@ Primeiramente será necessário clonar este projeto em (https://github.com/Bruno
    ```   
 
 <!-- LICENSE -->
-## License
+## Licença
 
 Distribuído sob a licença MIT.
 
